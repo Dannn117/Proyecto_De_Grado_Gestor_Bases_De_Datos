@@ -1,0 +1,43 @@
+{
+    "ejemplos_tablas": [
+        {
+            "id": 1,
+            "nombre": "prueba",
+            "descripcion": "prueba",
+            "columnas": [
+                {
+                    "nombre": "id_prueba",
+                    "tipo": "INT",
+                    "restricciones": [
+                        "PRIMARY KEY"
+                    ]
+                },
+                {
+                    "nombre": "Nombre",
+                    "tipo": "VARCHAR",
+                    "restricciones": [
+                        "NOT NULL"
+                    ]
+                },
+                {
+                    "nombre": "Direccion",
+                    "tipo": "VARCHAR",
+                    "restricciones": [
+                        "DEFAULT"
+                    ]
+                }
+            ],
+            "registros": [
+                {
+                    "id_prueba": "1111"
+                }
+            ]
+        }
+    ],
+    "relaciones": [],
+    "estadisticas": {
+        "total_tablas": 3,
+        "total_dml_operations": 2,
+        "total_ddl_commands": 4
+    }
+}
